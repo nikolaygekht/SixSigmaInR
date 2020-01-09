@@ -11,5 +11,7 @@ var(v)
 sd(v)
 # population variance
 mean((v-mean(v))^2)
-# population standard variance
+# population standard deviation
 sqrt(mean((v-mean(v))^2))
+# percentile
+quantile(v, .75);
