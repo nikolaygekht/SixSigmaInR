@@ -10,5 +10,7 @@ png(filename="ch05p071.png");
 par(mar = c(10, 4, 2, 2) + 0.2);
 #bar diagram of categories
 barplot(data$Percent, ylab="Percent", xlab="Category", names.arg=data$Type, las=2, ylim=c(0, 100));
+#add cummulative percentage line and 80% cut-off line
 lines(data$CumPercent);
+abline(h=80);
 dev.off();

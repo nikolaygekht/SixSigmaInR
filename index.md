@@ -1,3 +1,5 @@
-Basic Run Chart -> Chapter 13
+Basic Run Chart -> ch13p201.r
 
-Paretto Charts  -> Chapter 05
+Box Plot -> ch14p215.r
+
+Paretto Charts  -> ch05p071.r, ch14p213.r
