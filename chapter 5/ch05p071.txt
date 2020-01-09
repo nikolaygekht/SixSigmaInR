@@ -1,0 +1,8 @@
+Type,Count
+Timely filling,13245
+Medical Necessety,1423
+Duplicate claim,18012
+Clain lack information,4548
+No Benefeciary found,10215
+Service not covered,2154
+Date of service issue,526
