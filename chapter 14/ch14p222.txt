@@ -1,4 +1,4 @@
-Temperature,Donenees
+Temperature,Doneness
 200,1
 225,1.2
 250,2.2
