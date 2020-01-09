@@ -1,0 +1,13 @@
+Month,NumberOfReturns,NumberOfSales
+January,105,3500
+Febrary,95,2200
+March,125,2500
+April,140,2800
+May,215,3000
+June,200,2900
+Jule,190,2700
+August,245,3300
+September,225,3100
+October,270,3700
+November,285,4000
+December,250,4200
