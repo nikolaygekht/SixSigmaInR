@@ -4,7 +4,6 @@ data <- read.csv("ch17p260.txt", header=TRUE);
 data1 <- data.frame(PartsPerHour=data$PartsPerHour,Defects=data$Defects);
 fit <- glm(data$Defects ~ data$PartsPerHour);
 cf = coef(fit);
-cf
 
 png(filename="ch17p260.png");
 

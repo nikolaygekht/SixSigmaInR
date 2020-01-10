@@ -6,13 +6,13 @@ Basic Run Chart -> ch13p201.r
 
 Box Plot -> ch14p215.r
 
-Paretto Charts  -> ch05p071.r, ch14p213.r
+Pareto Charts  -> ch05p071.r, ch14p213.r
 
 Pie Charts -> ch17p257.r
 
 Scatter Diagram -> ch14p222.r, ch17p260.r (ggplot)
 
-SPC Chart -> ch14p238.r
+SPC Chart aka X-Bar Control Chart -> ch14p238.r, ch17p264.r (ggplot)
 
 Stacked Bar Chart -> ch17p255.r (ggplot)
 
