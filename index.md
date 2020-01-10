@@ -1,5 +1,7 @@
 Six Sigma Charts, Diagrams and Plots examples in R
 
+Bar Chart (Horizontal & Vertical) -> ch17p249.r
+
 Basic Run Chart -> ch13p201.r
 
 Box Plot -> ch14p215.r
@@ -9,6 +11,8 @@ Paretto Charts  -> ch05p071.r, ch14p213.r
 Scatter Diagram -> ch14p222.r
 
 SPC Chart -> ch14p238.r
+
+Stacked Bar Chart -> ch17p255.r
 
 Note:
 

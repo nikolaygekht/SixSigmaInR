@@ -26,4 +26,7 @@ https://cran.r-project.org/bin/windows/base/
 
 3. [Optional] Download and Install Visual Studio Code and install R language support
 
-4. To run R scripts use `R --file=...` where `...` is R file name.
+4. Install `tidyverse` library by running `install-tidyverse.r` in the root
+
+5. To run R scripts use `R --file=...` where `...` is R file name.
+
