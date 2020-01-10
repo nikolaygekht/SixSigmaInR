@@ -7,7 +7,7 @@ png(filename="ch13p201.png");
 #add margin for labels at bottom
 par(mar = c(10, 4, 2, 2) + 0.2);
 #plot return rate line
-plot(data$ReturnsRate, type="l", xaxt="n", ylim=c(0, max(data$ReturnsRate)),
+plot(data$ReturnsRate, type="l", xaxt="n", ylim=c(0, round(max(data$ReturnsRate)) + 1),
      xlab="Month", ylab="Returns per Hundred",
      main="Run Chart");
 #plot median line

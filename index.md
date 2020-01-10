@@ -1,6 +1,8 @@
-Six Sigma Charts, Diagrams and Plots examples in R
+Six Sigma Methods, Charts, Diagrams and Plots examples in R
 
-Bar Chart (Horizontal & Vertical) -> ch17p249.r (ggplot)
+Bar Chart (Horizontal & Vertical) -> ch17p249.r (ggplot), ch18p280.r, ch18p285.r
+
+Chi-Square Test -> ch18p294.r
 
 Basic Run Chart -> ch13p201.r
 
