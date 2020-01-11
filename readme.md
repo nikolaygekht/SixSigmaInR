@@ -28,5 +28,9 @@ https://cran.r-project.org/bin/windows/base/
 
 4. Install `tidyverse` library by running `install-tidyverse.r` in the root
 
+Note: if you installed R under Program Files folder the library installation
+may fail because of insufficient permissions. Give full control over R folder
+to all users. 
+
 5. To run R scripts use `R --file=...` where `...` is R file name.
 
