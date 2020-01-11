@@ -14,7 +14,7 @@ License
 
 The source code is distributed under Apache 2.0 license (https://www.apache.org/licenses/LICENSE-2.0).
 
-The license covers the source code ONLY.
+The license covers the source code ONLY. It does not cover the book itself or its content. 
 
 How to start:
 
