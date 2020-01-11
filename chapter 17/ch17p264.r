@@ -17,8 +17,5 @@ ggplot(data=data1, aes(x=X, y=DataPoints)) +
   geom_hline(yintercept=mv + dv * 3, color="gray50") +
   ylim(mv - dv *4, mv + dv * 4);
 
-
-
-
 dev.off();
 

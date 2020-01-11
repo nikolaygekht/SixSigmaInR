@@ -29,9 +29,9 @@ bardata <- bin(data, 10, 75, 5);
 bardata;
 
 png(filename="ch18p294-1.png");
-    ggplot(data=bardata, aes(x=start, y=count)) +
-        geom_bar(stat="identity") +
-        theme(axis.text.x = element_text(angle = 90, hjust = 1));
+ggplot(data=bardata, aes(x=start, y=count)) +
+    geom_bar(stat="identity") +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1));
 dev.off();
 
 stderror <- function(data) {
@@ -61,23 +61,32 @@ max(data);
 sum(data);
 length(data);
 
-cfd <- matrix(0, length(bardata$count));
-binonly <- matrix(0, length(bardata$count));
-expected <- matrix(0, length(bardata$count));
+dm <- mean(data);
+dsd <- sd(data);
 samplesize <- length(data);
 
+cfd <- matrix(0, length(bardata$count));
+binonly <- matrix(0, length(bardata$count));
+
 for (i in seq(1, length(cfd))) {
-    cfd[i] = pnorm(10 + (i - 1) * 5, mean = mean(data), sd = sd(data));
+    cfd[i] = pnorm(10 + (i - 1) * 5, mean = dm, sd = dsd);
     if (i == 1) {
         binonly[i] = cfd[i];
     } else {
         binonly[i] = cfd[i] - cfd[i - 1];
     }
-    expected[i] = binonly[i] * samplesize;
 
 }
+
+expected <- binonly * samplesize;
 
 fulldata <- data.frame(bin = bardata$start, observed = bardata$count, cfd = cfd, binonly = binonly, expected = expected, final = (expected - bardata$count) ** 2 / expected);
 fulldata;
 sum(fulldata$final);
 pchisq(sum(fulldata$final), df=11, lower.tail=FALSE);
+
+png(filename="ch18p294-2.png");
+ggplot() +
+  geom_line(data=bardata, aes(x=start, y=count), color="red") +
+  geom_line(data=fulldata, aes(x=bin, y=expected), color="blue");
+dev.off();

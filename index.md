@@ -8,6 +8,8 @@ Basic Run Chart -> ch13p201.r
 
 Box Plot -> ch14p215.r
 
+Line Chart -> ch18p294.r
+
 Pareto Charts  -> ch05p071.r, ch14p213.r
 
 Pie Charts -> ch17p257.r
