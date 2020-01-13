@@ -14,6 +14,12 @@ Box Plot -> ch14p215.r
 
 Histogram -> ch20p363.r (ggplot, binary distribution)
 
+Hypotesis testing ->
+    1 Sample P-Test -> ch21p386.r
+    1 Sample T-Test -> ch21p387.r
+    2 Sample T-Test -> ch21p389.r
+    Wilcox Test -> ch21p391.r
+
 Line Chart -> ch18p294.r, ch19p321.r
 
 Pareto Charts  -> ch05p071.r, ch14p213.r
