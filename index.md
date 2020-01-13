@@ -32,9 +32,11 @@ Poisson Distribution -> ch20p365.r
 
 Scatter Diagram -> ch14p222.r, ch17p260.r (ggplot)
 
-SPC Chart aka X-Bar Control Chart -> ch14p238.r, ch17p264.r (ggplot)
+SPC Chart aka X-Bar Control Chart -> ch14p238.r, ch17p264.r (ggplot), ch23p425.r
 
 Stacked Bar Chart -> ch17p255.r (ggplot)
+
+
 
 
 Note:
