@@ -48,6 +48,7 @@ png(filename="ch23p425-1.png");
 ggplot(data=data1, aes(x=x, y=y)) +
   geom_point(color="black", size=3) +
   geom_line(color="black") +
+ geom_point(data=subset(data1, y < cl$lcl | y > cl$ucl), aes(x=x, y=y), color="red", size=3) +
   geom_hline(yintercept=cl$ucl, color="gray50") +
   geom_hline(yintercept=cl$mean, color="gray25") +
   geom_hline(yintercept=cl$lcl, color="gray50");
