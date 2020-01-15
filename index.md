@@ -4,6 +4,8 @@ Bar Chart (Horizontal & Vertical) -> ch17p249.r (ggplot), ch18p280.r, ch18p285.r
 
 Binary Distribution -> ch20p357.r
 
+C Chart -> ch23p448.r
+
 Chi-Square Test -> ch18p294.r
 
 Correlation -> ch19p317.r
@@ -20,11 +22,15 @@ Hypotesis testing ->
     2 Sample T-Test -> ch21p389.r
     Wilcox Test -> ch21p391.r
 
+I-MR Chart -> ch23p434.r, ch23p442.r
+
 Line Chart -> ch18p294.r, ch19p321.r
 
 Pareto Charts  -> ch05p071.r, ch14p213.r
 
 Pie Charts -> ch17p257.r
+
+P Chart -> ch23p437.r, ch23p452.r
 
 Regression Analysis -> ch19p321.r
 
@@ -36,7 +42,7 @@ SPC Chart aka X-Bar Control Chart -> ch14p238.r, ch17p264.r (ggplot), ch23p425.r
 
 Stacked Bar Chart -> ch17p255.r (ggplot)
 
-
+U Chart -> ch23p450.r
 
 
 Note:

@@ -18,7 +18,6 @@ uclsales = mean(sales) + 3 * sd(sales);
 lclsales = mean(sales) - 3 * sd(sales);
 
 png(filename="ch23p434-1.png");
-
 data1 <- data.frame(x = pts, y = sales);
 ggplot(data=data1, aes(x=x, y=y)) +
   geom_point(color="black", size=3) +
